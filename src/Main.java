@@ -46,7 +46,7 @@ public class Main {
             }
         //  Aqui cerramos el try/catch con la notificacion en caso no se cumplan las validaciones de IllegalArgumentException solicitadas.
         }catch (IllegalArgumentException e){
-            System.out.println("la weaita no funciona "+ e.getMessage());
+            System.out.println("No se pudo registrar la Bicicleta, "+ e.getMessage());
         }
 
 
